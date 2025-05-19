@@ -10,7 +10,7 @@ def ahmia_scraper(query, days):
     if " " in query:
         query = query.replace(" ", "+")
 
-    url = "https://ahmia.fi/search/?q={}&d={}".format(query, days)
+    url = "oju4yn237c6hjh42qothvpreqecnqjhtvh4sgn3fqmsdvhu5d5tyspid.onion".format(query, days)
     #Random fake user agents
     ua_list = [ "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_3) AppleWebKit/537.75.14 (KHTML, like Gecko) Version/7.0.3 Safari/7046A194A", #Safari
                 "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:77.0) Gecko/20100101 Firefox/77.0", #Firefox
